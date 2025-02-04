@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReviewWord">
+        <group id="Sample.Group" label="Sample" insertAfterMso="GroupProofing">
+	        <button id="Sample.Button" getLabel="Sample" imageMso="HappyFace" onAction="OnMyCustomButtonClick" size="large" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
